@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  margin: 0;
+  background-color: #bdbdbd;
+}
+header {
+  padding: 50px;
+  text-align: center;
+  background: #7a7a7a;
+  color: white;
+}
+nav {
+  display: flex;
+  background-color: antiquewhite;
+}
+nav a {
+  color: rgb(110, 187, 255);
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+nav a.outset {
+  border-style: outset;
+}
+nav a:hover {
+  background-color: rgb(109, 109, 109);
+}
+section {
+  flex: 60%;
+  background-color: white;
+  padding: 20px;
+}
+.rows {
+  min-height: 76vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+aside {
+  flex: 20%;
+  background-color: #e9e6e6;
+  padding: 20px;
+}
+
+img.a {
+  float: right;
+}
+a.relative {
+  position: relative;
+  left: 40;
+}
+#inCenter {
+  text-align: center;
+}
